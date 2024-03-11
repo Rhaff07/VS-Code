@@ -1,0 +1,21 @@
+body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+/* a:visited {
+  color: blueviolet;
+} */
+a:hover,
+a:focus {
+  color: blue;
+}
+a:active {
+  color: red;
+}
