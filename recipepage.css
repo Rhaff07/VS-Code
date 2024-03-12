@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: var(--Eggshell);
+  color: var(--Wenge-Brown);
+  font-family: sans-serif;
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.container {
+  background-color: var(--White);
+  max-width: 700px;
+width: 100%;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+}
+
+.container .img-recipe {
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.container .img-recipe img {
+  border-radius: 2rem;
+}
+
+h1,
+h2 {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+
+h1 {
+  color: var(--Dark-Charcoal);
+  font-size: 2.2;
+}
+
+h2 {
+  color: var(--Nutmeg);
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: var(--Dark-Raspberry);
+  padding-left: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.recipe-desc,
+.nutri-desc {
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding-left: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+ul li::marker {
+  color: var(--Dark-Raspberry);
+}
+
+ul li span {
+  font-weight: 700;
+}
+
+.list {
+  padding-left: 3rem;
+}
+
+.list li::marker {
+  color: var(--Nutmeg);
+}
+
+hr {
+  border: 2px solid var(--Light-Grey);
+  margin: 1.5rem;
+}
+ol {
+  padding: 0.1rem 3rem;
+}
+
+ol li span {
+  font-weight: 700;
+}
+
+ol li::marker {
+  color: var(--Nutmeg);
+  font-weight: 600;
+}
+.table .item {
+  display: flex;
+  border-bottom: 2px solid var(--Light-Grey);
+  margin: 2rem;
+  padding: 1rem 2rem;
+}
+
+.table .values {
+  color: var(--Dark-Raspberry);
+  font-weight: 700;
+}
+
+.table .item > * {
+  width: 100px;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  color: black;
+  margin: 2rem;
+}
+
+footer a {
+  color: var(--Dark-Charcoal);
+  font-weight: 600;
+  text-decoration: none;
+}
